@@ -67,6 +67,7 @@ nav a {
     font-weight: bold;
     padding: 10px 10px 10px 10px;
     transition-duration: 0.5s;
+    border-radius: 5px;
     width: 120px;
 }
 
@@ -108,16 +109,30 @@ main.index-page p {
     margin-bottom: 15px;
     line-height: 1.5em;
     text-align: justify;
+    font-size: 1.1em;
 }
 
 main.index-page a {
     text-decoration: none;
+    font-weight: bold;
+}
+
+main.index-page a:visited {
+    color: black
+}
+
+main.index-page a:hover {
+    text-decoration: underline;
 }
 
 div.texto strong {
     background-color: #29b7e277;
     padding: 0px 5px 0px 5px;
     color: #292929d5;
+}
+
+div.texto > p > img {
+    padding-bottom: 6px;
 }
 
 img.game-cover-small {
