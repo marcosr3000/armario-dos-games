@@ -135,6 +135,10 @@ div.texto > p > img {
     padding-bottom: 6px;
 }
 
+div.all-game-covers {
+    text-align: center;
+}
+
 img.game-cover-small {
     margin: 10px 10px 10px 10px;
     box-shadow: 0px 0px 5px black;
@@ -146,14 +150,15 @@ img.game-cover-small:hover {
 }
 
 section {
-    background-color: #f0615c5f;
-    padding: 10px;
+    background-color: #f0615c33;
+    padding: 10px 30px 10px 30px;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 1.5px 1px 10px black;
+    
 }
 
 section > h2, img {
+    font-family: var(--fonte-titulo);
     display: inline-block;
     vertical-align: middle;
     text-align: center;
