@@ -160,7 +160,7 @@ section > h2, img {
 }
 
 main.game-pages {
-    background-color: white;
+    background-color: lightgray;
     min-width: 280px;
     max-width: 1000px;
     margin: auto;
