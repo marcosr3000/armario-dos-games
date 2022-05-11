@@ -182,7 +182,7 @@ div.game-image, div.game-infos {
 }
 
 div.game-image {
-    padding: 20px 10px 20px 20px;     
+    padding: 20px 10px 20px 15px;     
 }
 
 img.game-cover {
@@ -192,7 +192,7 @@ img.game-cover {
 div.game-infos {
     min-width: 270px;
     max-width: 445px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 15px 20px 10px;
 }
 
 div.game-infos > h1 {
@@ -315,6 +315,15 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
     div.texto {
         width: 273px;
     }
+
+    main.game-pages {
+        width: 333px;
+    }
+
+    div.game-infos {
+        padding: 20px 20px 20px 15px;
+    }
+
     img.avancar-tela-grande, img.voltar-tela-grande {
         display: none;
     }
@@ -360,11 +369,16 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         width: 120px;
     }
     main.game-pages {
-        width: 540px;
+        width: 532px;
     }
     div.texto {
         width: 342px;
     }
+
+    div.game-infos {
+        padding: 20px 20px 20px 15px;
+    }
+
     main.index-page p {
         font-size: 0.9em;
     }    
