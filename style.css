@@ -149,16 +149,7 @@ img.game-cover-small:hover {
     box-shadow: 0px 0px 0px 5px #F0615C;
 }
 
-section {
-    background-color: #f0615c33;
-    padding: 10px 30px 10px 30px;
-    margin-top: 20px;
-    border-radius: 10px;
-    
-}
-
-section > h2, img {
-    font-family: var(--fonte-titulo);
+div.all-game-covers > h2, img {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
