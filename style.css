@@ -87,6 +87,7 @@ main.index-page {
     background-color: #FFFFFF;
     min-width: 250px;
     max-width: 970px;
+    min-height: 213px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
     padding: 20px;
@@ -155,6 +156,17 @@ div.all-game-covers > h2, img {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+}
+
+div.em-breve {
+    font-family: var(--fonte-destaque);
+    font-size: 4em;
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 40px;    
 }
 
 main.game-pages {
