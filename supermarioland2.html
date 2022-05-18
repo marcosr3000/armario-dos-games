@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armário dos Games</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main.game-pages {
+            background-color: #0477bf82;
+        }
+
+        div.game-infos > h2 {
+            background-color: #208C0F;
+            color: white;
+        }
+
+        div.game-links {
+            background-color: #F2B705;
+            color: black
+        }
+
+        div.game-links > a {
+            color: black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Armário <br>dos Games</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="console-pages/ds.html">Nintendo DS</a>
+            <a class="pagina-atual" href="console-pages/3ds.html">Nintendo 3DS</a>
+            <a href="console-pages/wii.html">Nintendo Wii</a>
+            <a href="console-pages/wiiu.html">Nintendo Wii U</a>
+            <a href="console-pages/switch.html">Nintendo Switch</a>            
+        </nav>       
+    </header>
+    <a href="supermario3dland.html" target="_self" rel="prev"><img class="voltar-tela-grande" src="game-thumbs/voltar-preto-m.png" alt="Botão Voltar"></a>
+
+    <a href="supersmash3ds.html" target="_self" rel="next"><img class="avancar-tela-grande" src="game-thumbs/avancar-preto-m.png" alt="Botão Avançar"></a>
+
+    <a href="supermario3dland.html" target="_self" rel="prev"><img class="voltar-tela-pequena" src="game-thumbs/voltar-branco-p.png" alt="Botão Voltar"></a>
+
+    <a href="supersmash3ds.html" target="_self" rel="next"><img class="avancar-tela-pequena" src="game-thumbs/avancar-branco-p.png" alt="Botão Avançar"></a>
+    <main class="game-pages">
+        <div class="game-image">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens-grandes/supermarioland2-p.jpeg" type="image/jpg">
+                <img class="game-cover" src="imagens-grandes/supermarioland2-m.jpeg" alt="Super Mario Land 2: 6 Golden Coins Cover">
+            </picture>
+        </div>
+        <div class="game-infos">
+            <h1>Super Mario Land 2: 6 Golden Coins</h1>
+            <audio preload="metadata" controls>
+                <source src="audios/supermarioland2-mp3.mp3" type="audio/mpeg">
+                <source src="audios/supermarioland2-ogg.ogg" type="audio/ogg">
+                <p>Infelizmente seu navegador não é compatível com áudio.</p>
+            </audio>
+            <h2>Informações do jogo</h2>
+            <p class="game-data">
+                <strong>Developer:</strong> Nintendo R&D<BR>
+                <strong>Publisher:</strong> Nintendo<br>
+                <strong>Plataforma(s):</strong> Game Boy, Virtual Console 3DS<br>
+                <strong>Lançamento:</strong> 01/11/1992 (EUA), 21/10/1992 (Japão)
+                <br>
+                <strong>Gênero: </strong> Plataforma
+                </p>
+            <h2>Informações da minha cópia</h2>
+                <p class="game-data">
+                <strong>Status:</strong> Finalizado <br>
+                <strong>Mídia: </strong> Digital <br>
+                <strong>Data de Aquisição:</strong> xx/xx/xxxx<br>
+                <strong>Loja:</strong> Nintendo eShop<br>
+            </p>
+        </div>
+        <div class="game-links">
+            Links 
+            <a href="#">Página Oficial</a>
+            <a href="https://www.mariowiki.com/Super_Mario_Land_2:_6_Golden_Coins" target="_blank" rel="external">Mario Wiki</a>
+            <a href="#">Wikipedia (Inglês)</a>
+            <a href="#">Trailer</a>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Site criado por Marcos Roberto.
+        </p>
+    </footer>
+</body>
+</html>
