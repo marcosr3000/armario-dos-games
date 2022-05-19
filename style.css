@@ -265,6 +265,7 @@ div.game-links > a:hover {
 footer {
     background-color: #292929;
     font-family: var(--fonte-padrao);
+    font-style: italic;
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -274,7 +275,23 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    text-decoration: none;
 }
+
+footer a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:active {
+    color: white;
+}
+
+
 
 div.foto {
     display: inline-block;
@@ -362,6 +379,10 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
     
     div.game-links > a {
         padding: 5px 5px 5px 5px;
+    }
+
+    footer {
+        height: 35px;
     }
 }
 
