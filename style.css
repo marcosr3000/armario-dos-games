@@ -83,6 +83,7 @@ nav a:hover {
 }
 
 main.index-page {
+    position: relative;
     margin: auto;
     background-color: #FFFFFF;
     min-width: 250px;
@@ -170,6 +171,7 @@ div.em-breve {
 }
 
 main.game-pages {
+    position: relative;
     background-color: lightgray;
     min-width: 280px;
     max-width: 1000px;
@@ -308,14 +310,21 @@ div.texto {
 img.voltar-tela-grande {
     box-shadow: 0px 0px 0px;
     position: absolute;
-    left: 3.5vw;
-    top: 60vh;
+    left: -100px;
+    top: 250px;
 }
 img.avancar-tela-grande {
     box-shadow: 0px 0px 0px;
     position: absolute;
-    left: 92.5vw;
-    top: 60vh;
+    left: 1055px;
+    top: 250px;
+}
+
+img.avancar-tela-grande-index {
+    box-shadow: 0px 0px 0px;
+    position: absolute;
+    left: 1055px;
+    top: 250px;
 }
 
 img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequena {
@@ -414,9 +423,20 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
     main.index-page p {
         font-size: 0.9em;
     }    
-    img.avancar-tela-grande, img.voltar-tela-grande {
-        display: none;
+    img.avancar-tela-grande {
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 560px;
+        top: 225px;
     }
+
+    img.voltar-tela-grande {
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: -75px;
+        top: 225px;
+    }
+
     img.avancar-tela-pequena-index {
         display: block;
         box-shadow: 0px 0px 0px;
@@ -425,18 +445,18 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         top: 52px;
     }
     img.voltar-tela-pequena {
-        display: block;
-        box-shadow: 0px 0px 0px;
+        display: none;
+        /*box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 26px;
+        top: 26px;*/
     }   
     img.avancar-tela-pequena {
-        display: block;
-        box-shadow: 0px 0px 0px;
+        display: none;
+        /*box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 78px;
+        top: 78px;*/
     }
      
 }
