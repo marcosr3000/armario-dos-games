@@ -287,10 +287,12 @@ footer a {
 
 footer a:visited {
     color: white;
+    text-decoration: underline;
 }
 
 footer a:active {
     color: white;
+    text-decoration: underline;
 }
 
 
