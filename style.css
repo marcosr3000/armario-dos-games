@@ -334,9 +334,69 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
     display: none;
 }
 
+@media screen and (max-width: 320px) {
+    header > h1 {
+       font-size: 10px;
+       text-align: center;
+       width: 10vw;
+    }
+    nav {
+        font-size: 1em;
+        width: 10vw;
+    }
+    
+    div.texto {
+        width: 273px;
+    }
+
+    main.game-pages {
+        width: 333px;
+    }
+
+    div.game-infos {
+        padding: 20px 20px 20px 15px;
+    }
+
+    img.avancar-tela-grande, img.voltar-tela-grande {
+        display: none;
+    }
+    img.avancar-tela-pequena-index {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 24vw;
+        top: 185px;
+        
+    }
+
+    img.avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 30vw;
+        top: 185px;
+        
+    }
+
+    img.voltar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 16vw;
+        top: 185px;
+    }
+    
+    div.game-links > a {
+        padding: 5px 5px 5px 5px;
+    }
+
+    footer {
+        height: 35px;
+    }
+}
 
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 490px) and (min-width: 319px) {
     header > h1 {
        font-size: 40px;
        text-align: center;
