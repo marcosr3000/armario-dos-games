@@ -1,4 +1,4 @@
-# Armário dos Games (Games' Locker)
+# 👾 Armário dos Games
 
 [<img style="box-shadow: 1px 1px 5px black" src="https://raw.githubusercontent.com/marcosr3000/armario-dos-games/main/game-thumbs/armario-thumb.png" alt="Social Medias project thumbnail">](https://marcosr3000.github.io/armario-dos-games/)
 
@@ -12,7 +12,7 @@ Some of the tools that I applied:
 <li>external fonts;
 <li>CSS variables
 
-## Launch Video
+## ▶️ Launch Video
 
 [<img style="box-shadow: 1px 1px 5px black" src="https://github.com/marcosr3000/armario-dos-games/blob/main/videos/armario-video-thumb.png?raw=true" alt="Social Medias project thumbnail">](https://www.linkedin.com/posts/marcosrobertoassis_html-css-frontend-activity-6937077278493323264-jwJS)
 
