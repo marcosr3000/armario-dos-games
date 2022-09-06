@@ -4,7 +4,7 @@
 
 This is my first project in a solo flight. It's a webpage where I catalog my game collection in a colorful and audible way. You'll see, for every game title, the cover, basic information such as developer company and release date and listen the theme song. 
 
-Some of the concepts that I applied: 
+Some of the tools that I applied: 
 <li>responsive design;
 <li>media queries;
 <li>semanthic HTML;
